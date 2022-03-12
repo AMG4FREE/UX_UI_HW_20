@@ -8,6 +8,7 @@
 
     <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/APP_ID">
 
+    
     <!-- load CSS styles -->
     <link href="/css/style.css" type="text/css" rel="stylesheet">
 
@@ -31,7 +32,9 @@
     <!-- top tab toolbar navigation -->
 <header>
     <div class="logo" id="header">
-        <img src="images/logo.png" alt="logo">
+        <a target="self" href="#">
+            <img src="images/logo.png" alt="logo">
+        </a>
     </div>
 
     <div class="navbar" id="spacer">
@@ -56,12 +59,28 @@
     </div>
 
     <div class="content-frame">
+
         <h3>Hi, I'm... </h3>
-        <h1>Andrew Maxwell Grant</h1>
-        <h3>A Creative UX Designer based in Seattle, Washington.</h3>
-        <p>Et metus volutpat viverra in suscipit. Fermentum libero lectus aliquet non mattis metus.</p>
-        
-        <a class="btn-6" href="#"><span>Download Resume</span></a>
+
+        <h1>
+            Andrew Maxwell Grant
+        </h1>
+
+        <h3>
+            A Creative UX Designer based in Seattle, Washington.
+        </h3>
+
+        <p>
+            Et metus volutpat viverra in suscipit. Fermentum libero lectus aliquet non mattis metus.
+        </p>
+
+        <a href="/pdf/AndrewGrant-resume-V1.pdf">
+            <button>View Resume</button>
+        </a>
+
+        <div class="button">
+            <a href="/pdf/AndrewGrant-resume-V1.pdf" class="btn btn-4"><span>view resume</span></a> 
+        </div>
 
     </div>
 </div>
@@ -77,32 +96,32 @@
 
 <div class="flexContainer">
 
-    <div class="flexItem">
-        <div>
+    <div class="flexItem" id="research">
+        <div class="skills-image" id="research">
             <img src="images/placeholder_picture.png" alt="placeholder_picture">
         </div>
         <div>
             <h3>User Research</h3>
         </div>
         <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis sed suscipit phasellus, et tesecundit viva repsilium Toto bogodo. Rudi Tudy, freisch end frooty. tincidunt quisque habitant ipsum vitae mauris lectus fermentum. Tempor, maecenas </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis sed suscipit phasellus, et tese repsum Toto bogodo. Rudi Tudy, freisch end frooty. tincidunt quisque itant ipsum vitae mauris lectus feor, maecenas </p>
         </div>
     </div>
     
-    <div class="flexItem">
-        <div>
+    <div class="flexItem" id="interface">
+        <div class="skills-image" id="interface">
             <img src="images/placeholder_picture.png" alt="placeholder_picture">
         </div>
         <div>
             <h3>User Interface Design</h3>
         </div>
         <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. pellentesque enim amet odio egestas amet, sed. Dignissim felis sit run to it, the French! egestas  morbi vulputate turpis. Leo id imperdiet dolor libero platea euismod.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. pellentesque enim amet odio egestas amet, sesim felis sit run to it, the French! egestas  morbi tate turpis. Leo id imperdiet dolor libero platea euismod.</p>
         </div>
     </div>
     
-    <div class="flexItem">
-        <div>
+    <div class="flexItem" id="webdev">
+        <div class="skills-image" id="webdev">
             <img src="images/placeholder_picture.png" alt="placeholder_picture">
         </div>
         <div>
@@ -123,52 +142,51 @@
         <h1>Projects</h1>
     </div>
 
-
     <div class="workgrid">
-        <div class="project1">
-            <div class="image1">
-                <img src="images/placeholder_picture.png" alt="placeholder_picture">
+        <div class="project">
+            <div class="image">
+                <img src="/images/placeholder_picture.png" alt="placeholder_picture">
             </div>
-            <div class="heading1">
-                <h3>Project Title 1</h3>
+            <div class="heading">
+                <h3>Waste Away</h3>
             </div>
-            <div class="paragraph1">
-                <p>Velit tincidunt quisque habitant ipsum vitae mauris lectus semper fermentum. Tempor, maecenas enim amet odio egestas amet, sed. </p>
+            <div class="paragraph">
+                <p>A mobile app that helps users sort their recycling. </p>
             </div>
-            <div class="button1">
-                <a class="btn-6" href="#">
+            <div class="button">
+                <a class="btn-6" href="/caseStudy-wasteAway.html">
                     <span>View Project</span>
                 </a>
             </div>
         </div>
-        <div class="project2">
-            <div class="image2">
-                <img src="images/placeholder_picture.png" alt="placeholder_picture">
+        <div class="project">
+            <div class="image">
+                <img src="/images/placeholder_picture.png" alt="placeholder_picture">
             </div>
-            <div class="heading2">
-                <h3>Project Title 1</h3>
+            <div class="heading">
+                <h3>FTC Website Redesign</h3>
             </div>
-            <div class="paragraph2">
-                <p>Velit tincidunt quisque habitant ipsum vitae mauris lectus semper fermentum. Tempor, maecenas enim amet odio egestas amet, sed. </p>
+            <div class="paragraph">
+                <p>A design overhaul of the Federal Trade Commission government website. </p>
             </div>
-            <div class="button2">
-                <a class="btn-6" href="#">
+            <div class="button">
+                <a class="btn-6" href="/caseStudy-FTC.html">
                     <span>View Project</span>
                 </a>
             </div>
         </div>
-        <div class="project3">
-            <div class="image3">
-                <img src="images/placeholder_picture.png" alt="placeholder_picture">
+        <div class="project">
+            <div class="image">
+                <img src="/images/placeholder_picture.png" alt="placeholder_picture">
             </div>
-            <div class="heading3">
-                <h3>Project Title 1</h3>
+            <div class="heading">
+                <h3>Cracked Pots</h3>
             </div>
-            <div class="paragraph3">
-                <p>Velit tincidunt quisque habitant ipsum vitae mauris lectus semper fermentum. Tempor, maecenas enim amet odio egestas amet, sed. </p>
+            <div class="paragraph">
+                <p>A website redesign for a nonprofit arts organization based in Portland, Oregon. </p>
             </div>
-            <div class="button3">
-                <a class="btn-6" href="#">
+            <div class="button">
+                <a class="btn-6" href="/caseStudy-crackedPots.html">
                     <span>View Project</span>
                 </a>
             </div>
@@ -210,14 +228,6 @@
 </section>
 
 <footer>
-    <div class="logo" id="footer">
-        <img src="images/logo.png" alt="logo">
-    </div>
-
-    <div class="navbar" id="spacer">
-        <!-- empty div. used as spacer between flex items -->
-    </div>
-
     <nav class="navbar" id="footer">
         <ul>
             <li class="nav-item" id="Skills"><a href="#">Skills</a></li>
@@ -230,5 +240,5 @@
 
 </body>
 
-<script src="/js/index.js"></script>
+<!-- <script src="/js/index.js"></script> -->
 </html>
